@@ -1,54 +1,59 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
+  background-color: #ffffff;
 }
-
 .contact-link {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
-.main-section {
+.section-first {
   background-color: #2e2f42;
 }
-.main-title {
-  color: #fff;
-}
 .text {
-  color: #434455;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .title-third {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .title-second {
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.section-second {
+.section-third {
   background-color: #f4f4fd;
 }
 .card {
   background-color: #fff;
 }
-.main-title {
+.title-first {
   color: #fff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .bottom-text {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  letter-spacing: 0.02em;
 }
 .bottom-line {
   background-color: #2e2f42;
@@ -59,47 +64,60 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 .contact-link:hover,
-.nav-link:hover,
-.nav-link-studio:hover {
+.nav-link:hover {
   color: #404bbf;
-}
-.nav-link-studio {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  text-decoration: none;
 }
 .contact-link:focus,
-.nav-link:focus,
-.nav-link-studio:focus {
+.nav-link:focus {
   color: #404bbf;
 }
-button {
+.order-service {
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
   cursor: pointer;
+  letter-spacing: 0.04em;
 }
-button:hover {
+.order-service:hover {
+  background-color: #404bbf;
+}
+.order-service:focus {
   background-color: #404bbf;
 }
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.17;
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
+  letter-spacing: 0.03em;
 }
 .logo-top {
   color: #2e2f42;
 }
 .logo-bottom {
   color: #f4f4fd;
+}
+.contacts {
+  font-style: normal;
+}
+.section-third .title-second {
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.section-fourth .title-second {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
